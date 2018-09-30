@@ -1,0 +1,7 @@
+cd Downloads/big-data-2/image
+ls
+eog Australia.jpg
+./dimensions.py Australia.jpg
+./pixel.py Australia.jpg 0 0
+./pixel.py Australia.jpg 5000 0
+./pixel.py Australia.jpg 2000 2000

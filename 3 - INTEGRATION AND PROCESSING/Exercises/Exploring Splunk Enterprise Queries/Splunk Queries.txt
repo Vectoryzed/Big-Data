@@ -1,0 +1,15 @@
+source="census.csv" spurcetype="csv"
+STNAME="California"
+STNAME="California" OR STNAME="Alaska"
+STNAME="California" CENSUS2010POP > 1000000
+STNAME="California" CENSUS2010POP > 1000000 | table CTYNAME
+CENSUS2010POP > 1000000 | sort CENSUS2010POP desc | table CENSUS2010POP, STNAME
+STNAME="California" CENSUS2010POP > 1000000 | table CTYNAME, CENSUS2010POP
+STNAME="California" | stats count
+STNAME="California" | stats sum(CENSUS2010POP)
+STNAME="California" | stats mean(CENSUS2010POP)
+
+
+
+
+
