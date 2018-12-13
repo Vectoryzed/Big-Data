@@ -49,7 +49,7 @@ _______________________________________________________________________________
 Want to make sense of the volumes of data you have collected?  Need to incorporate data-driven decisions into your process?  This course provides an overview of machine learning techniques to explore, analyze, and leverage data.  You will be introduced to tools and algorithms you can use to create machine learning models that learn from data, and to scale those models up to big data problems.
 
 <b>Main topics:</b>
-- Itroduction to Machine Learning with Big Data
+- Introduction to Machine Learning with Big Data
 - Data Exploration
 - Data Preparation
 - Classification
